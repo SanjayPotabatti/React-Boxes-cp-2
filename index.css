@@ -1,1 +1,60 @@
 /* Write your code here. */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.heading{
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color:#0f172a;
+    text-align: center;
+
+}
+.boxCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+.smallBox{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbbf24;
+    width: 200px;
+    height: 150px;
+    padding:20px;
+    margin:20px;
+}
+.mediumBox{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #38bdf8;
+    width: 200px;
+    height: 350px;
+    padding:20px;
+    margin:20px;
+}
+.largeBox{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ec4899;
+    width: 200px;
+    height: 550px;
+    padding:20px;
+    margin:20px;
+}
